@@ -1,4 +1,3 @@
-// rsi.js
 const axios = require('axios');
 const { RSI } = require('technicalindicators');
 

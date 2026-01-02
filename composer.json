@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jaggedsoft/php-binance-api": "^0.5.30",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

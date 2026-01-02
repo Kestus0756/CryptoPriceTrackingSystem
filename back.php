@@ -80,8 +80,6 @@ function fetchKlinesMulti($symbols, $intervals) {
             }, $decoded);
         } else {
             $results[$symbol][$interval] = [];
-            // Log error for debugging
-            error_log("Failed to fetch klines for $symbol:$interval - Response: " . substr($response, 0, 200));
         }
 
         curl_multi_remove_handle($multi, $ch);

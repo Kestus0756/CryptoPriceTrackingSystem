@@ -38,12 +38,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'kestus0756@gmail.com';
-            $mail->Password = 'cabw hwih fhmg vesi';
+            $mail->Username = 'ccts_owner@gmail.com';
+            $mail->Password = '';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
-            $mail->setFrom('ponas@gmail.com', 'Ponas Kripto');
+            $mail->setFrom('ccts@gmail.com', 'sender');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = "Slaptazodzio atstatymas";
